@@ -1,0 +1,34 @@
+.header {
+    font-family: 'Oswald', sans-serif;
+    
+    background: url(/img/fondoindex.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+  }
+
+  .header .navbar {
+    background-color: transparent !important;
+  }
+
+  .circuloimagen{    
+    border-radius: 50%;
+    width: 8em;
+    height: 8em;  
+}
+
+.tipogra{
+    font-family: 'Oswald', sans-serif;
+    color: #edf6f9;
+    
+}
+
+.titulo1{
+    font-family: 'Oswald', sans-serif;
+    color: #edf6f9;
+    text-align: center;  
+    margin: 10%;
+    margin-bottom: 5%;
+   
+}
+
+
