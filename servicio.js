@@ -7,7 +7,7 @@
 const URI="https://api.spotify.com/v1/artists/4gzpq5DPGxSnKTe4SA8HAU/top-tracks?market=us"
 
 //2. Necesito permisos
-const TOKEN="Bearer BQCi0_zw6HKFOk20rJ_LTrE8Vg7No-5az2lQ2VEyWfiRGucSQaMH6_xQiABK17wVEbascSald-L0emcFzLpPYHZjdu28Vi1T9XRTjUqP-AQ4YgAG7gFLkcDUa_lPi7MZLymDN7V0oq3B7gG6u1WFK3jvlsogp9ECbP4"
+const TOKEN="Bearer BQAMpSnPu0Y9lZLMwVgDJZK41yebYik01K_CADx2mniVtL-soqzJjdb-Brny82i131DWlkhAZEWAoPnlCaQ0JHJ9gholaEZ7BwoSbhzofkV7XbsfGnV-ir3oldY_Yx0tp4LCQGPJJCDm9bqeaLD29sVvLUPQFVHKVw8"
 
 //3. configuro metodo, cabeceras y cuerpo de la peticion
 let parametrosPeticion={
@@ -65,4 +65,3 @@ fetch(URI,parametrosPeticion)
 .catch(respuestaERORR=>{
     console.log(respuestaERORR)
 })
-
