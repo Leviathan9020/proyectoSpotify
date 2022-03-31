@@ -1,0 +1,12 @@
+.header2 {
+    font-family: 'Oswald', sans-serif;
+    
+    background: url(/img/fondoindex.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+  }
+
+  .header2 .navbar2 {
+    background-color: transparent !important;
+  }
+

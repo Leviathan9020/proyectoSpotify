@@ -1,6 +1,5 @@
 .header {
-    font-family: 'Oswald', sans-serif;
-    
+    font-family: 'Oswald', sans-serif;    
     background: url(/img/fondoindex.jpg) no-repeat center;
     background-size: cover;
     min-height: 100vh;
@@ -27,8 +26,9 @@
     color: #edf6f9;
     text-align: center;  
     margin: 10%;
-    margin-bottom: 5%;
-   
+    margin-bottom: 5%;   
 }
+
+
 
 
