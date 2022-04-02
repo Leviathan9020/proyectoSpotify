@@ -21,7 +21,7 @@
     let respuesta = await fetch(URI,parametros)
     let token = respuesta.json()
     return token
-    // `${token.token_type} ${token.access_token}`  
+      
    
     
 } 
