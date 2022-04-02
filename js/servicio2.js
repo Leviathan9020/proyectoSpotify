@@ -1,4 +1,4 @@
-import { PARAMATROS_PETICION} from "./generarToken.js"
+import {PARAMATROS_PETICION} from "./generarToken.js"
 
 
 export async function consumirAPI(URI){
@@ -6,6 +6,7 @@ export async function consumirAPI(URI){
     let canciones=respuesta.json()
     return(canciones)
 }
+
 
 
 

@@ -4,9 +4,7 @@ import {
 import {
     imprimirCanciones
 } from "./canciones.js"
-import {
-    generarURI
-} from "./generadorURI.js"
+
 
 let botoncoldplay = document.getElementById("coldplay")
 console.log(botoncoldplay)
@@ -16,6 +14,7 @@ botoncoldplay.addEventListener("click", async function (event) {
     let canciones = await consumirAPI("https://api.spotify.com/v1/artists/4gzpq5DPGxSnKTe4SA8HAU/top-tracks?market=us")
     imprimirCanciones(canciones)
 
+    console.log(canciones)
 
 
 })
